@@ -1,0 +1,60 @@
+@import 'abstract/variables',
+        'abstract/mixins';
+
+@import 'base/reset',
+        'base/base',
+        'base/commons';
+
+@import 'pages/home';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// liste-style : none;
+
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+.fond_head{
+    background-image: url("images/fond_header.png");;
+    background-size: cover;
+    height: 700px;
+}
+
+.fond_selec{
+    background-image: url("images/back_selec.png");;
+    background-size: cover;
+    height: 700px;
+}
+
+.text_white{
+    color: white;
+}
+
+.flux{
+    display: flex;
+}
+
+.image_cent{
+    margin: 0 auto;
+    display:block;
+}
+
+.test{
+
+
+}
+
+.table{
+    display: flex;
+    align-items: center;
+}
+
+.center_{
+    text-align: center;
+    max-width: 500px;
+}
